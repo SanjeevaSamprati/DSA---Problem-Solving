@@ -29,3 +29,7 @@ class Solution {
         return -1; // nahi mila
     }
 }
+
+/*
+ * Approach: Use binary search on both sides of the mid element. Since one side is always sorted, we can check if the target lies in the sorted side or not. If it does, we search in that side, otherwise we search in the other side.
+ */
